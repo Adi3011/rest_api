@@ -2,7 +2,6 @@ const express  = require("express") // we get express as function
 const app = express()
 const studentRouter = require("./routers/students") // import router
 require("./db/connection");
-const Student = require("./models/students");
 
 const port = process.env.PORT || 8000
 
